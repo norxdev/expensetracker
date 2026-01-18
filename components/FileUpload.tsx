@@ -1,6 +1,7 @@
 "use client"
 
-import { parseCSV, Transaction } from "@/lib/csv"
+import { parseCSV, Transaction } from "../lib/csv"
+
 
 export default function FileUpload({
   onParsed
