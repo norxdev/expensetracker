@@ -1,13 +1,9 @@
 "use client"
 
-import "@/components/charts"
-import { Bar, Line } from "react-chartjs-2"
-import { Transaction } from "@/lib/csv"
-import {
-  totalSpend,
-  spendByCategory,
-  monthlySpend
-} from "@/lib/aggregations"
+import "./charts"
+import { Transaction } from "../lib/csv"
+import { totalSpend, spendByCategory, monthlySpend } from "../lib/aggregations"
+
 
 export default function Dashboard({
   transactions
